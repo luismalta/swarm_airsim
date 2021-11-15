@@ -1,0 +1,6 @@
+<launch>
+
+  <group ns="AirSim">
+    <node name="AirSim" pkg="swarm_airsim" type="launch_sim.py" />
+  </group>
+</launch>
